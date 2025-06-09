@@ -1,0 +1,32 @@
+leonard@leonard-ThinkPad-P14s-Gen-2a:~/code/experiments/CM/grain_size/chronosT/MSE$ py-spy top -- python3 mse_frame_to_frame.py 
+
+
+Collecting samples from 'python3 mse_frame_to_frame.py' (python v3.12.3)
+Total Samples 36000
+GIL: 3.00%, Active: 99.00%, Threads: 1
+
+  %Own   %Total  OwnTime  TotalTime  Function (filename)                                                                                                                                                                      
+ 60.00%  99.00%   238.5s    356.6s   <module> (mse_frame_to_frame.py)
+ 39.00%  39.00%   101.4s    102.9s   _mean (numpy/core/_methods.py)
+  0.00%   0.00%    4.70s     5.60s   _var (numpy/core/_methods.py)
+  0.00%   0.00%    1.93s     1.93s   _count_reduce_items (numpy/core/_methods.py)
+  0.00%   0.00%    1.05s     1.05s   draw_path (matplotlib/backends/backend_agg.py)
+  0.00%   0.00%   0.890s    0.910s   _encode_tile (PIL/ImageFile.py)
+  0.00%   0.00%   0.640s     6.86s   std (numpy/core/fromnumeric.py)
+  0.00%   0.00%   0.620s     6.22s   _std (numpy/core/_methods.py)
+  0.00%   0.00%   0.380s     7.26s   moving_average (mse_frame_to_frame.py)
+  0.00%   0.00%   0.360s    0.360s   to_native_types (pandas/core/internals/blocks.py)
+  0.00%   0.00%   0.340s    0.730s   _save_chunk (pandas/io/formats/csvs.py)
+  0.00%   0.00%   0.310s    0.760s   _call_with_frames_removed (<frozen importlib._bootstrap>)
+  0.00%   0.00%   0.180s    0.310s   helper (contextlib.py)
+  0.00%   0.00%   0.180s    0.200s   draw_text (matplotlib/backends/backend_agg.py)
+  0.00%   0.00%   0.170s    0.300s   count_contains (matplotlib/transforms.py)
+  0.00%   0.00%   0.170s    0.260s   __exit__ (contextlib.py)
+  0.00%   0.00%   0.160s    0.450s   _update_props (matplotlib/artist.py)
+  0.00%   0.00%   0.140s    0.140s   _no_nep50_warning (numpy/core/_ufunc_config.py)
+  0.00%   0.00%   0.130s    0.260s   __init__ (matplotlib/transforms.py)
+  0.00%   0.00%   0.120s    0.120s   set_children (matplotlib/transforms.py)
+
+Press Control-C to quit, or ? for help.
+
+process 204511 ended

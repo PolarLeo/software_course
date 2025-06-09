@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/example_package_leonard/__init__.py
+src/example_package_leonard/example.py
+src/example_package_leonard/merge_lists.py
+src/example_package_leonard/plotting_example.py
+src/example_package_leonard/reverse_list.py
+src/example_package_leonard/str2bin.py
+src/example_package_leonard.egg-info/PKG-INFO
+src/example_package_leonard.egg-info/SOURCES.txt
+src/example_package_leonard.egg-info/dependency_links.txt
+src/example_package_leonard.egg-info/requires.txt
+src/example_package_leonard.egg-info/top_level.txt
